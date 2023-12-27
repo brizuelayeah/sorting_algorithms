@@ -1,0 +1,31 @@
+Fierro Casanova, Pilar  819658@unizar.es    a819658
+Brizuela Garcia, Oscar  820773@unizar.es    a820773
+
+Para la ejecución del programa se debe ejecutar el siguiente comando:
+
+bash ejecutar1.sh
+
+El programa compilará y ejecutara el código con los vectores a ordenar generados con datos aleatorios
+y posteriormente compilará y ejecutará el código con los vectores a ordenar de los casos reales.
+
+Si solo se desea ejecutar el programa con los vectores aleatorios se debe ejecutar el siguiente comando:
+g++ -std=c++11 -o practica1Aleatorio main.cpp
+./practica1Aleatorio
+
+Si solo se desea ejecutar el programa con los vectores de los casos reales se debe ejecutar el siguiente comando:
+g++ -std=c++11 -o practica1Reales main_reals.cpp
+./practica1Reales
+
+Los ficheros fuente entregados son los siguientes:
+- bubbleSort.cpp: contiene el código del algoritmo de ordenación burbuja.
+- dnis_a_txt.txt: fichero que en el cual cada línea es un identificador de persona física (DNI ó NIE).
+- dnis.py: fichero que lee el fichero .txt de entrada correspondiente con el contenido íntegro del PDF que se ha utilizado como fuente de datos real, extrae los IDs (DNIs y NIEs) y los escribe en un fichero de formato .txt, a razón de un ID por línea. 
+- ejecutar1.sh: script que contiene el código correspondiente para compilar y ejecutar de manera automática.
+- funcionarios.pdf: documento pdf del que se han obtenido los DNIs y NIEs para las pruebas con casos reales
+- includes.hpp: fichero con los includes necesarios y comunes en el resto en su gran mayoría.
+- main_reals.cpp: fichero principal con las funciones necesarias para la ejecución de los 3 algoritmos en función del tamaño de los vectores con todos los casos con datos reales.
+- main.cpp: fichero principal con las funciones necesarias para la ejecución de los 3 algoritmos con los vectores con datos aleatorios.
+- quickSort.cpp: fichero con las funciones necesarias para la implementación del algoritmo de QuickSort.
+- radixSort.cpp: fichero con las funciones necesarias para la implementación del algoritmo de RadixSort
+- utils.cpp: fichero con funciones auxiliares para conseguir el funcionamiento de la práctica. 
+y por último este fichero con la información para ejecutar la práctica completa o por separado y el listado de ficheros fuente entregados.
